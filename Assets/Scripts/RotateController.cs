@@ -4,8 +4,9 @@ using UnityEngine;
 
 public class RotateController : MonoBehaviour
 {
+    [SerializeField]
     [Tooltip("抽選機の回転速度")]
-    public float rotateSpeed = 20.0f;
+    private float rotateSpeed = 20.0f;
 
     // ガラポンのオブジェクト
     private GameObject garapon;
